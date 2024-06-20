@@ -8,7 +8,7 @@ const USUARIO = {
     following: Number,
     repos: Array,
 };
-const CONSULTA = document.querySelector(".consulta");
+const CONSULTA = document.querySelector("#consulta");
 
 async function obterUsuario() {
     obterRepos();
